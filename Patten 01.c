@@ -5,7 +5,7 @@ void main()
     int i,j;
     for(i=1;i<=12;i++)
     {
-    if(i%2==0)
+    if(i%2==0){
         for(j=1;j<=i;j++)
         {
             if(j%2==0)
@@ -16,10 +16,11 @@ void main()
             {
                 printf("0");
             }
-            else
-            {
-                printf(" ");
-            }
+        }
+      else
+      {
+           printf(" ");
+      }
         }printf("\n");
     }
 getch();
